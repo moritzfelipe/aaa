@@ -11319,6 +11319,46 @@ video {
   }
 }
 
+@-webkit-keyframes left {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(-252.1%);
+  }
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(-252.1%);
+  }
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(-252.1%);
+  }
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(-252.1%);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -11342,6 +11382,21 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.animate-left {
+  -webkit-animation: left 15s linear infinite;
+          animation: left 15s linear infinite;
+}
+
+.animate-left-x2 {
+  -webkit-animation: left 12s linear infinite;
+          animation: left 12s linear infinite;
+}
+
+.animate-left-x3 {
+  -webkit-animation: left 8s linear infinite;
+          animation: left 8s linear infinite;
 }
 
 .cursor-auto {
@@ -44242,6 +44297,21 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .sm\:animate-left {
+    -webkit-animation: left 15s linear infinite;
+            animation: left 15s linear infinite;
+  }
+
+  .sm\:animate-left-x2 {
+    -webkit-animation: left 12s linear infinite;
+            animation: left 12s linear infinite;
+  }
+
+  .sm\:animate-left-x3 {
+    -webkit-animation: left 8s linear infinite;
+            animation: left 8s linear infinite;
+  }
+
   .sm\:cursor-auto {
     cursor: auto;
   }
@@ -76786,6 +76856,21 @@ video {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:animate-left {
+    -webkit-animation: left 15s linear infinite;
+            animation: left 15s linear infinite;
+  }
+
+  .md\:animate-left-x2 {
+    -webkit-animation: left 12s linear infinite;
+            animation: left 12s linear infinite;
+  }
+
+  .md\:animate-left-x3 {
+    -webkit-animation: left 8s linear infinite;
+            animation: left 8s linear infinite;
   }
 
   .md\:cursor-auto {
@@ -109334,6 +109419,21 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .lg\:animate-left {
+    -webkit-animation: left 15s linear infinite;
+            animation: left 15s linear infinite;
+  }
+
+  .lg\:animate-left-x2 {
+    -webkit-animation: left 12s linear infinite;
+            animation: left 12s linear infinite;
+  }
+
+  .lg\:animate-left-x3 {
+    -webkit-animation: left 8s linear infinite;
+            animation: left 8s linear infinite;
+  }
+
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -141880,6 +141980,21 @@ video {
             animation: bounce 1s infinite;
   }
 
+  .xl\:animate-left {
+    -webkit-animation: left 15s linear infinite;
+            animation: left 15s linear infinite;
+  }
+
+  .xl\:animate-left-x2 {
+    -webkit-animation: left 12s linear infinite;
+            animation: left 12s linear infinite;
+  }
+
+  .xl\:animate-left-x3 {
+    -webkit-animation: left 8s linear infinite;
+            animation: left 8s linear infinite;
+  }
+
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -174424,6 +174539,21 @@ video {
   .\32xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-left {
+    -webkit-animation: left 15s linear infinite;
+            animation: left 15s linear infinite;
+  }
+
+  .\32xl\:animate-left-x2 {
+    -webkit-animation: left 12s linear infinite;
+            animation: left 12s linear infinite;
+  }
+
+  .\32xl\:animate-left-x3 {
+    -webkit-animation: left 8s linear infinite;
+            animation: left 8s linear infinite;
   }
 
   .\32xl\:cursor-auto {
